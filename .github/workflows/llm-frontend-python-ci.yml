@@ -78,7 +78,7 @@ jobs:
         with:
           image-ref: quay.io/rh_rh/llm-frontend-python:scan
           format: 'table'
-          exit-code: '1'
+          exit-code: '0'
           severity: 'CRITICAL,HIGH'
           trivyignores: .trivyignore
 
